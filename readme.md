@@ -12,8 +12,11 @@ To install FluxBB using this method:
 
  1. Download and install [Virtualbox](https://www.virtualbox.org/) which is required for using Vagrant.
  2. Download and install [Vagrant](http://www.vagrantup.com/).
- 3. Use Git to clone this repository: `git clone git://github.com/fluxbb/fluxbb2.git`.
- 4. Run `vagrant up` from the command line. This will configure the VM for you. This can take a few minutes when you run it for the first time.
+ 3. Download an install [Composer](http://getcomposer.org).
+ 3. Use Git to clone this repository: `git clone git://github.com/fluxbb/fluxbb.git`.
+ 4. Switch to the 2.0 branch: `git checkout 2.0`.
+ 5. Install dependencies: `composer install`
+ 5. Run `vagrant up` from the command line. This will configure the VM for you. This can take a few minutes when you run it for the first time.
 
 You will now be able to access your FluxBB installation at http://localhost:2008/public/index.php.
 
